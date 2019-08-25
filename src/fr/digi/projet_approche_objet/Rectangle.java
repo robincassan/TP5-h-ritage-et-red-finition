@@ -4,6 +4,10 @@ public class Rectangle extends Forme{
 	double longueur; 
 	double largeur; 
 	
+	public Rectangle(double longueur, double largeur) {
+		this.longueur = longueur;
+		this.largeur = largeur;
+	}
 
 	@Override
 	public double calculerSurface() {
@@ -33,9 +37,5 @@ public class Rectangle extends Forme{
 		this.largeur = largeur;
 	}
 
-	public Rectangle(double longueur, double largeur) {
-		this.longueur = longueur;
-		this.largeur = largeur;
-	}
 	
 }

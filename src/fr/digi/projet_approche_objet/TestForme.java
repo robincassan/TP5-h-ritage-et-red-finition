@@ -16,6 +16,8 @@ public class TestForme {
 		aff.afficher(carre);
 		aff.afficher(rectangle);
 
+	
+
 	}
 
 }
